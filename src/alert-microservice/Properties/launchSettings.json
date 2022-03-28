@@ -4,19 +4,19 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:34649",
-      "sslPort": 44351
+      "applicationUrl": "http://localhost:39884",
+      "sslPort": 44359
     }
   },
   "profiles": {
-    "product_microservice": {
+    "alert_microservice": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:7001;",
+      "applicationUrl": "https://localhost:7002",
       "dotnetRunMessages": true
     },
     "IIS Express": {
